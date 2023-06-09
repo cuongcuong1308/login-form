@@ -167,21 +167,20 @@ button{
 }
 
 .img::before{
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
   top: 0;
   width: 900px;
   height: 100%;
-  /* background-image: url(/education-website/assets/images/bg-fpt.jpg); */
-  background-image: url(/assets/images/bg-fpt.jpg);
+  background-image: url(/assets/images/background-fpt.jpg);
   background-size: cover;
   transition: -webkit-transform 1.2s ease-in-out;
   transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
 }
 
 .img:after{
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
